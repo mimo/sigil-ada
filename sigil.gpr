@@ -1,0 +1,14 @@
+library project Sigil is
+
+   for Object_Dir use "obj";
+   for Source_Dirs use ("src");
+   for Library_Dir use "lib";
+   --for Library_Interface use ("sigil");
+   for Library_Kind use "static";
+   for Library_Src_Dir use "src";
+   for Library_Name use "sigil-ada";
+
+   for Source_Files use ("sigil.adb", "sigil.ads", "sl_h.ads");
+
+end Sigil;
+
